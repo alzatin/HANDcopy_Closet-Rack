@@ -6,7 +6,141 @@
     "uniqueID": 1719080415125,
     "ioValues": [],
     "topLevel": true,
-    "allAtoms": [],
+    "allAtoms": [
+        {
+            "atomType": "Output",
+            "name": "Output",
+            "x": 0.98,
+            "y": 0.5,
+            "uniqueID": 1719080424450,
+            "ioValues": []
+        },
+        {
+            "atomType": "Molecule",
+            "name": "Crtain Rod",
+            "x": 0.2281508739650414,
+            "y": 0.4627329192546583,
+            "uniqueID": 1719080460931,
+            "ioValues": [],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.98,
+                    "y": 0.5,
+                    "uniqueID": 1719080460776,
+                    "ioValues": [
+                        {
+                            "name": "number or geometry",
+                            "ioValue": 1719080471887
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 0.27690892364305425,
+                    "y": 0.4472049689440994,
+                    "uniqueID": 1719080465987,
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 1.31
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Rotate",
+                    "name": "Rotate",
+                    "x": 0.39282428702851885,
+                    "y": 0.4161490683229814,
+                    "uniqueID": 1719080468214,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1719080465987
+                        },
+                        {
+                            "name": "x-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "y-axis degrees",
+                            "ioValue": 90
+                        },
+                        {
+                            "name": "z-axis degrees",
+                            "ioValue": 48
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 0.47010119595216193,
+                    "y": 0.6459627329192547,
+                    "uniqueID": 1719080469470,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1719080468214
+                        },
+                        {
+                            "name": "height",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Color",
+                    "name": "Color",
+                    "x": 0.6540938362465502,
+                    "y": 0.5714285714285714,
+                    "uniqueID": 1719080471887,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1719080469470
+                        }
+                    ],
+                    "selectedColorIndex": 4
+                }
+            ],
+            "allConnectors": [
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 1719080465987,
+                    "ap2ID": 1719080468214
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 1719080468214,
+                    "ap2ID": 1719080469470
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 1719080469470,
+                    "ap2ID": 1719080471887
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 1719080471887,
+                    "ap2ID": 1719080460776
+                }
+            ],
+            "unitsIndex": 0,
+            "fileTypeVersion": 1
+        }
+    ],
     "allConnectors": [],
     "unitsIndex": "Inches",
     "fileTypeVersion": 1,
