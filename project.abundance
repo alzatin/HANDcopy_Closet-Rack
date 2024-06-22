@@ -10,10 +10,15 @@
         {
             "atomType": "Molecule",
             "name": "Crtain Rod",
-            "x": 0.16765873015873015,
-            "y": 0.20496894409937888,
+            "x": 0.1636904761904762,
+            "y": 0.24223602484472048,
             "uniqueID": 1719080460931,
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "name1",
+                    "ioValue": 25
+                }
+            ],
             "topLevel": false,
             "allAtoms": [
                 {
@@ -67,7 +72,7 @@
                         },
                         {
                             "name": "height",
-                            "ioValue": 10
+                            "ioValue": 25
                         }
                     ]
                 },
@@ -97,6 +102,14 @@
                             "ioValue": 1719080471887
                         }
                     ]
+                },
+                {
+                    "atomType": "Input",
+                    "name": "name1",
+                    "x": 0.013333333333333334,
+                    "y": 0.7763975155279503,
+                    "uniqueID": 1719086029013,
+                    "ioValues": []
                 }
             ],
             "allConnectors": [
@@ -127,16 +140,48 @@
                     "ap2Primary": false,
                     "ap1ID": 1719080471887,
                     "ap2ID": 1719080460776
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "height",
+                    "ap2Primary": false,
+                    "ap1ID": 1719086029013,
+                    "ap2ID": 1719080469470
                 }
             ],
             "unitsIndex": 0,
             "fileTypeVersion": 1
         },
         {
+            "atomType": "Rotate",
+            "name": "Rotate",
+            "x": 0.37003968253968256,
+            "y": 0.1956521739130435,
+            "uniqueID": 1719080561835,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 1719080460931
+                },
+                {
+                    "name": "x-axis degrees",
+                    "ioValue": 0
+                },
+                {
+                    "name": "y-axis degrees",
+                    "ioValue": -90
+                },
+                {
+                    "name": "z-axis degrees",
+                    "ioValue": 0
+                }
+            ]
+        },
+        {
             "atomType": "Molecule",
             "name": "Crtain Rod",
-            "x": 0.09821428571428571,
-            "y": 0.4409937888198758,
+            "x": 0.08432539682539682,
+            "y": 0.422360248447205,
             "uniqueID": 1719080552691,
             "ioValues": [],
             "topLevel": false,
@@ -256,31 +301,6 @@
             ],
             "unitsIndex": 0,
             "fileTypeVersion": 1
-        },
-        {
-            "atomType": "Rotate",
-            "name": "Rotate",
-            "x": 0.37003968253968256,
-            "y": 0.1956521739130435,
-            "uniqueID": 1719080561835,
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": 1719080460931
-                },
-                {
-                    "name": "x-axis degrees",
-                    "ioValue": 0
-                },
-                {
-                    "name": "y-axis degrees",
-                    "ioValue": -90
-                },
-                {
-                    "name": "z-axis degrees",
-                    "ioValue": 0
-                }
-            ]
         },
         {
             "atomType": "Molecule",
@@ -1165,8 +1185,8 @@
         {
             "atomType": "Join",
             "name": "Assembly",
-            "x": 0.41964285714285715,
-            "y": 0.5186335403726707,
+            "x": 0.41865079365079366,
+            "y": 0.453416149068323,
             "uniqueID": 1719080597501,
             "ioValues": [
                 {
@@ -1296,18 +1316,18 @@
             "ap2ID": 1719080561835
         },
         {
-            "ap1Name": "Geometry",
-            "ap2Name": "3D shape 3",
-            "ap2Primary": false,
-            "ap1ID": 1719080552691,
-            "ap2ID": 1719080597501
-        },
-        {
             "ap1Name": "geometry",
             "ap2Name": "3D shape 4",
             "ap2Primary": false,
             "ap1ID": 1719080561835,
             "ap2ID": 1719080569339
+        },
+        {
+            "ap1Name": "Geometry",
+            "ap2Name": "3D shape 3",
+            "ap2Primary": false,
+            "ap1ID": 1719080552691,
+            "ap2ID": 1719080597501
         },
         {
             "ap1Name": "Geometry",
