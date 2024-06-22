@@ -466,10 +466,6 @@
                         {
                             "name": "3D shape 27",
                             "ioValue": 1719081122330
-                        },
-                        {
-                            "name": "3D shape 32",
-                            "ioValue": 1719081323336
                         }
                     ],
                     "unionType": "Assembly"
@@ -1222,13 +1218,6 @@
                     "ap2Primary": true,
                     "ap1ID": 1719081115535,
                     "ap2ID": 1719081122330
-                },
-                {
-                    "ap1Name": "Geometry",
-                    "ap2Name": "3D shape 32",
-                    "ap2Primary": false,
-                    "ap1ID": 1719081323336,
-                    "ap2ID": 1719080686489
                 },
                 {
                     "ap1Name": "geometry",
