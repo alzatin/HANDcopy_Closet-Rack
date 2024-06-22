@@ -543,19 +543,6 @@
                             ]
                         },
                         {
-                            "atomType": "Circle",
-                            "name": "Circle",
-                            "x": 0.1499540018399264,
-                            "y": 0.6180124223602484,
-                            "uniqueID": 1719081347859,
-                            "ioValues": [
-                                {
-                                    "name": "diameter",
-                                    "ioValue": 0.1
-                                }
-                            ]
-                        },
-                        {
                             "atomType": "Join",
                             "name": "Assembly",
                             "x": 0.44350580781414994,
@@ -572,6 +559,19 @@
                                 }
                             ],
                             "unionType": "Assembly"
+                        },
+                        {
+                            "atomType": "Circle",
+                            "name": "Circle",
+                            "x": 0.1499540018399264,
+                            "y": 0.6180124223602484,
+                            "uniqueID": 1719081347859,
+                            "ioValues": [
+                                {
+                                    "name": "diameter",
+                                    "ioValue": 0.1
+                                }
+                            ]
                         },
                         {
                             "atomType": "Extrude",
@@ -618,8 +618,8 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.7192460317460317,
-                            "y": 0.3695652173913043,
+                            "x": 0.7243928194297783,
+                            "y": 0.3726708074534162,
                             "uniqueID": 1719081514699,
                             "ioValues": [
                                 {
@@ -698,15 +698,15 @@
                             "ap1Name": "geometry",
                             "ap2Name": "geometry",
                             "ap2Primary": true,
-                            "ap1ID": 1719081347859,
-                            "ap2ID": 1719081366940
+                            "ap1ID": 1719081374997,
+                            "ap2ID": 1719081387741
                         },
                         {
                             "ap1Name": "geometry",
                             "ap2Name": "geometry",
                             "ap2Primary": true,
-                            "ap1ID": 1719081374997,
-                            "ap2ID": 1719081387741
+                            "ap1ID": 1719081347859,
+                            "ap2ID": 1719081366940
                         },
                         {
                             "ap1Name": "geometry",
