@@ -151,8 +151,7 @@
             ],
             "unitsIndex": 0,
             "fileTypeVersion": 1,
-            "compiledBom": [],
-            "projectSVGs": []
+            "compiledBom": []
         },
         {
             "atomType": "Rotate",
@@ -303,8 +302,7 @@
             ],
             "unitsIndex": 0,
             "fileTypeVersion": 1,
-            "compiledBom": [],
-            "projectSVGs": []
+            "compiledBom": []
         },
         {
             "atomType": "Molecule",
@@ -743,8 +741,7 @@
                     ],
                     "unitsIndex": 0,
                     "fileTypeVersion": 1,
-                    "compiledBom": [],
-                    "projectSVGs": []
+                    "compiledBom": []
                 },
                 {
                     "atomType": "Tag",
@@ -1084,8 +1081,7 @@
                     ],
                     "unitsIndex": 0,
                     "fileTypeVersion": 1,
-                    "compiledBom": [],
-                    "projectSVGs": []
+                    "compiledBom": []
                 },
                 {
                     "atomType": "Output",
@@ -1189,8 +1185,7 @@
             ],
             "unitsIndex": 0,
             "fileTypeVersion": 1,
-            "compiledBom": [],
-            "projectSVGs": []
+            "compiledBom": []
         },
         {
             "atomType": "Join",
@@ -1385,6 +1380,5 @@
     "unitsIndex": "Inches",
     "fileTypeVersion": 1,
     "compiledBom": [],
-    "projectSVGs": [],
     "filetypeVersion": 1
 }
