@@ -1328,8 +1328,8 @@
         {
             "atomType": "GitHubMolecule",
             "name": "Linear Pattern",
-            "x": 0.6931927133269415,
-            "y": 0.5501519756838906,
+            "x": 0.6874400767018217,
+            "y": 0.5592705167173252,
             "uniqueID": 1721689840910,
             "ioValues": [
                 {
@@ -1388,15 +1388,15 @@
                         },
                         {
                             "name": "count",
-                            "ioValue": 10
+                            "ioValue": 3
                         },
                         {
                             "name": "distanceX",
-                            "ioValue": 10
+                            "ioValue": 13
                         },
                         {
                             "name": "distanceY",
-                            "ioValue": 10
+                            "ioValue": 11
                         }
                     ],
                     "codeVersion": 1,
