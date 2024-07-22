@@ -1253,8 +1253,8 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.3655629139072848,
-            "y": 0.761755485893417,
+            "x": 0.31351869606903165,
+            "y": 0.5714285714285714,
             "uniqueID": 1719080856398,
             "ioValues": [
                 {
@@ -1302,54 +1302,15 @@
             "ioValues": [
                 {
                     "name": "number or geometry",
-                    "ioValue": 1719080569339
-                }
-            ]
-        },
-        {
-            "atomType": "Join",
-            "name": "Assembly",
-            "x": 0.7695364238410596,
-            "y": 0.6927899686520377,
-            "uniqueID": 1720375783035,
-            "ioValues": [
-                {
-                    "name": "3D shape 2",
-                    "ioValue": 1720375793684
-                }
-            ],
-            "unionType": "Assembly"
-        },
-        {
-            "atomType": "Move",
-            "name": "Move",
-            "x": 0.5947019867549669,
-            "y": 0.7523510971786834,
-            "uniqueID": 1720375793684,
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": 1719080569339
-                },
-                {
-                    "name": "xDist",
-                    "ioValue": 0
-                },
-                {
-                    "name": "yDist",
-                    "ioValue": 0
-                },
-                {
-                    "name": "zDist",
-                    "ioValue": 0
+                    "ioValue": 1721685526123
                 }
             ]
         },
         {
             "atomType": "GitHubMolecule",
             "name": "Linear Pattern",
-            "x": 0.4695571955719557,
-            "y": 0.7933130699088146,
+            "x": 0.6730584851390221,
+            "y": 0.6534954407294833,
             "uniqueID": 1721685526123,
             "ioValues": [
                 {
@@ -1362,7 +1323,7 @@
                 },
                 {
                     "name": "shape",
-                    "ioValue": 1719080848939
+                    "ioValue": 1721688475473
                 },
                 {
                     "name": "distanceX",
@@ -1404,19 +1365,19 @@
                     "ioValues": [
                         {
                             "name": "inputID",
-                            "ioValue": 1719080848939
+                            "ioValue": 1721688475473
                         },
                         {
                             "name": "count",
-                            "ioValue": 10
+                            "ioValue": 3
                         },
                         {
                             "name": "distanceX",
-                            "ioValue": 10
+                            "ioValue": 13
                         },
                         {
                             "name": "distanceY",
-                            "ioValue": 10
+                            "ioValue": 11
                         }
                     ],
                     "codeVersion": 1,
@@ -1576,7 +1537,33 @@
             ],
             "gitHubUniqueID": 801181204,
             "fileTypeVersion": 1,
-            "compiledBom": []
+            "compiledBom": [
+                {
+                    "BOMitemName": "roundpart",
+                    "numberNeeded": 1,
+                    "costUSD": 0,
+                    "source": "www.example.com"
+                }
+            ]
+        },
+        {
+            "atomType": "Add-BOM-Tag",
+            "name": "Add BOM Tag",
+            "x": 0.4534995206136146,
+            "y": 0.8145896656534954,
+            "uniqueID": 1721688475473,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 1719080848939
+                }
+            ],
+            "BOMitem": {
+                "BOMitemName": "roundpart",
+                "numberNeeded": 1,
+                "costUSD": 0,
+                "source": "www.example.com"
+            }
         }
     ],
     "allConnectors": [
@@ -1624,10 +1611,10 @@
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "shape",
-            "ap2Primary": false,
+            "ap2Name": "geometry",
+            "ap2Primary": true,
             "ap1ID": 1719080848939,
-            "ap2ID": 1721685526123
+            "ap2ID": 1721688475473
         },
         {
             "ap1Name": "geometry",
@@ -1644,28 +1631,28 @@
             "ap2ID": 1719080597501
         },
         {
-            "ap1Name": "geometry",
+            "ap1Name": "Geometry",
             "ap2Name": "number or geometry",
             "ap2Primary": false,
-            "ap1ID": 1719080569339,
+            "ap1ID": 1721685526123,
             "ap2ID": 1719080424450
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": 1719080569339,
-            "ap2ID": 1720375793684
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "3D shape 2",
+            "ap2Name": "shape",
             "ap2Primary": false,
-            "ap1ID": 1720375793684,
-            "ap2ID": 1720375783035
+            "ap1ID": 1721688475473,
+            "ap2ID": 1721685526123
         }
     ],
     "fileTypeVersion": 1,
-    "compiledBom": [],
+    "compiledBom": [
+        {
+            "BOMitemName": "roundpart",
+            "numberNeeded": 1,
+            "costUSD": 0,
+            "source": "www.example.com"
+        }
+    ],
     "filetypeVersion": 1
 }
