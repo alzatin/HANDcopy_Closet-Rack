@@ -1309,8 +1309,8 @@
         {
             "atomType": "GitHubMolecule",
             "name": "Linear Pattern",
-            "x": 0.6730584851390221,
-            "y": 0.6534954407294833,
+            "x": 0.6788111217641419,
+            "y": 0.6504559270516718,
             "uniqueID": 1721685526123,
             "ioValues": [
                 {
@@ -1541,7 +1541,7 @@
                 {
                     "BOMitemName": "roundpart",
                     "numberNeeded": 1,
-                    "costUSD": 0,
+                    "costUSD": 10,
                     "source": "www.example.com"
                 }
             ]
@@ -1549,8 +1549,8 @@
         {
             "atomType": "Add-BOM-Tag",
             "name": "Add BOM Tag",
-            "x": 0.4534995206136146,
-            "y": 0.8145896656534954,
+            "x": 0.45637583892617445,
+            "y": 0.790273556231003,
             "uniqueID": 1721688475473,
             "ioValues": [
                 {
@@ -1561,7 +1561,7 @@
             "BOMitem": {
                 "BOMitemName": "roundpart",
                 "numberNeeded": 1,
-                "costUSD": 0,
+                "costUSD": 10,
                 "source": "www.example.com"
             }
         }
@@ -1650,7 +1650,7 @@
         {
             "BOMitemName": "roundpart",
             "numberNeeded": 1,
-            "costUSD": 0,
+            "costUSD": 10,
             "source": "www.example.com"
         }
     ],

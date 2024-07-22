@@ -2,7 +2,7 @@
 # Bill Of Materials 
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
-|roundpart|1|$0.00||
-|Total: |1|$0.00| |
+|roundpart|1|$10.00||
+|Total: |1|$10.00| |
 
- 3xCOG MSRP: $0.00
+ 3xCOG MSRP: $30.00
